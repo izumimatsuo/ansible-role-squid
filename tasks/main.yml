@@ -1,0 +1,19 @@
+---
+# tasks file for ansible-role-squid
+- name: install squid package
+  yum:
+    name:
+      - squid
+
+- name: copy squid conf
+  template:
+    src: squid.conf.j2
+    dest: /etc/squid/squid.conf
+    mode: 0644
+  notify: restart squid service
+
+- name: start squid service
+  service:
+    name: squid
+    state: started
+    enabled: yes

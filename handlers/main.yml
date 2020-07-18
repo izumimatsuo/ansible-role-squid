@@ -1,0 +1,6 @@
+---
+# handlers file for ansible-role-squid
+- name: restart squid service
+  service:
+    name: squid
+    state: restarted
