@@ -11,7 +11,7 @@ proxy を許可するポート
 
 - localhost からのアクセス
 - squid_allow_ipaddr で設定した内部アドレスからのアクセス
-- /etc/squid/whitelist に設定したドメインに一致するサクセス先
+- /etc/squid/whitelist に設定したドメインに一致するアクセス先
 
 ## 設定項目
 
