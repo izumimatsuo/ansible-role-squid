@@ -1,4 +1,4 @@
-# ansible-role-squid
+# ansible-role-squid [![Build Status](https://travis-ci.org/izumimatsuo/ansible-role-squid.svg?branch=master)](https://travis-ci.org/izumimatsuo/ansible-role-squid)
 
 CentOS 7 に squid を導入する ansible role です。
 
